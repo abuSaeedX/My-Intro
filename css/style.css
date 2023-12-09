@@ -62,6 +62,24 @@ iframe {
 .shikhbepara {
     font-family: 'Mina', sans-serif;
 }
+.social a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    border: solid 2px;
+    margin: 14px;
+    border-radius: 18px;
+   }
+.social a:hover {
+    background-color: rgb(156, 193, 225);
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+
 .nav {
     text-decoration: none;
     color: white;
@@ -70,13 +88,8 @@ iframe {
     border-radius: 22px;
     font-weight: 900;
 }
-
-
-
-
-#feedback {
-    color: brown;
+.nav:hover{
+background-color:rgb(156, 193, 225);
 }
-button {
-    font-size: 20px;
-}
+
+
